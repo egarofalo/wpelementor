@@ -1,0 +1,11 @@
+@use "sass:math";
+
+.grid {
+	margin-top: math.div($grid-gutter-width, 2);
+	margin-bottom: math.div($grid-gutter-width, 2);
+
+	& > .grid-item {
+		padding-top: math.div($grid-gutter-width, 2);
+		padding-bottom: math.div($grid-gutter-width, 2);
+	}
+}

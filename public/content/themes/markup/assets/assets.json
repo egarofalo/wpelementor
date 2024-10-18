@@ -1,0 +1,24 @@
+{
+	"publicPath": "dist",
+	"browserSync": {
+		"proxy": "https://elementor.test",
+		"files": ["**/*.(php)", "**/*.(js|css)"]
+	},
+	"extractVendorLibraries": [],
+	"entries": [
+		{
+			"output": "main.js",
+			"input": "main.js"
+		}	
+	],
+	"styleEntries": [
+		{
+			"output": "main.css",
+			"input": "main.scss"
+		},
+		{
+			"output": "editor-styles.css",
+			"input": "editor-styles.scss"
+		}
+	]
+}

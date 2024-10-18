@@ -1,0 +1,19 @@
+# Ignore .env config file
+config/.env
+# Ignore vendor folder
+vendor
+# Ignore composer.lock
+#composer.lock
+# Ignore WordPress files and folder
+public/.htaccess
+public/wp
+public/content/*
+!public/content/uploads
+# Exclude ACF Pro plugin
+!public/content/plugins
+public/content/plugins/*
+!public/content/plugins/advanced-custom-fields-pro
+# Exclude wpstack theme (from markup)
+!public/content/themes
+public/content/themes/*
+!public/content/themes/markup

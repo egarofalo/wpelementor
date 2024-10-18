@@ -1,0 +1,9 @@
+// Bootstrap Buttons + Forms
+//
+// Shared variables that are reassigned to `$input-` and `$btn-` specific variables.
+$input-btn-font-family: "Titillium Web", sans-serif;
+
+// Bootstrap Forms
+$input-border-color: $gray-900;
+$input-focus-box-shadow: 0 0 3px 2px $gray-900;
+$input-focus-border-color: $input-border-color;

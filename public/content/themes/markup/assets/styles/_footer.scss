@@ -1,0 +1,40 @@
+.site-footer {
+    .site-footer__contents {
+        background-color: $gray-200;
+        padding: 2rem 0;
+
+        .site-footer__logo {
+            text-align: center;
+        }
+
+        .site-footer__socials {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+
+            .site-footer__social-link {
+                display: inline-flex;
+                justify-content: center;
+                text-decoration: none;
+                background-color: $gray-800;
+                border-radius: 50%;
+                width: 2rem;
+                height: 2rem;
+                color: $white;
+                align-items: center;
+                font-size: 1rem;
+                margin: 3px;
+                transition: background-color 0.5s ease-in-out;
+
+                &:hover {
+                    background-color: $indigo;
+                }
+            }
+        }
+    }
+
+    .site-footer__vendor {
+        @include footer-vendor();
+    }
+}
