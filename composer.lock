@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ae5a7d7026dccbb938f3cb88aee726d5",
+    "content-hash": "4329ddaf21fb0dcb2aeca7003b175b1d",
     "packages": [
         {
             "name": "composer/installers",
@@ -298,24 +298,6 @@
                 "source": "https://github.com/johnpbloch/wordpress-core-installer/tree/master"
             },
             "time": "2020-04-16T21:44:57+00:00"
-        },
-        {
-            "name": "wpackagist-plugin/beer-blocks",
-            "version": "1.9.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/beer-blocks/",
-                "reference": "tags/1.9.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/beer-blocks.1.9.1.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/beer-blocks/"
         },
         {
             "name": "wpackagist-plugin/force-regenerate-thumbnails",

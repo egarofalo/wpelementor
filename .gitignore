@@ -13,6 +13,7 @@ public/content/*
 !public/content/plugins
 public/content/plugins/*
 !public/content/plugins/advanced-custom-fields-pro
+!public/content/plugins/elementor-pro
 # Exclude wpstack theme (from markup)
 !public/content/themes
 public/content/themes/*
