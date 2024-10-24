@@ -2,20 +2,6 @@ form {
     // Site search form
     &.search-form {
         max-width: 25rem;
-
-        [type="submit"].button {
-            &:after {
-                @include fa;
-                @include fas;
-                content: "\f002";
-            }
-
-            &.loading {
-                &:after {
-                    margin-left: 0;
-                }
-            }
-        }
     }
 
     // Comment form

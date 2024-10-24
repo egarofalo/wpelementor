@@ -135,10 +135,4 @@ add_action('markup_before_site_footer_contents', function () {
  */
 add_action('markup_after_site_footer_contents', function () {
     // add contents here...
-    get_template_part('footer', 'socials', [
-        'facebook' => get_field('social_media_facebook', 'option'),
-        'instagram' => get_field('social_media_instagram', 'option'),
-        'twitter' => get_field('social_media_twitter', 'option'),
-        'linkedin' => get_field('social_media_linkedin', 'option'),
-    ]);
 });

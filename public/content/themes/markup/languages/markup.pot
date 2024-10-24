@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Markup\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-29 21:46+0000\n"
+"POT-Creation-Date: 2024-10-23 22:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -23,40 +23,6 @@ msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
 msgstr[0] ""
 msgstr[1] ""
 
-#: template-parts/contact-form.php:47
-msgid "(*) Required fields"
-msgstr ""
-
-#: hooks/ajax_action.php:67
-#, php-format
-msgid "<p><strong>Company:</strong> %s</p>"
-msgstr ""
-
-#: hooks/ajax_action.php:68
-#, php-format
-msgid "<p><strong>Email:</strong> %s</p>"
-msgstr ""
-
-#: hooks/ajax_action.php:69
-#, php-format
-msgid "<p><strong>Message</strong><br>%s</p>"
-msgstr ""
-
-#: hooks/ajax_action.php:58
-#, php-format
-msgid "<p><strong>Name:</strong> %s</p>"
-msgstr ""
-
-#: hooks/ajax_action.php:66
-#, php-format
-msgid "<p><strong>Phone:</strong> %s</p>"
-msgstr ""
-
-#: hooks/ajax_action.php:61
-#, php-format
-msgid "<p><strong>Subject:</strong> %s</p>"
-msgstr ""
-
 #: helpers/loop.php:24
 #, php-format
 msgid "by %s"
@@ -68,14 +34,6 @@ msgstr ""
 
 #: comments.php:51
 msgid "Comments are closed."
-msgstr ""
-
-#: template-parts/contact-form.php:30 template-parts/contact-form.php:31
-msgid "Company"
-msgstr ""
-
-#: template-parts/contact-form.php:35 template-parts/contact-form.php:36
-msgid "Email"
 msgstr ""
 
 #. Name of the template
@@ -103,17 +61,8 @@ msgstr ""
 msgid "Image Header"
 msgstr ""
 
-#: template-parts/contact-form.php:41 template-parts/contact-form.php:42
-msgid "Message"
-msgstr ""
-
-#: hooks/ajax_action.php:63
-#, php-format
-msgid "Message from %s website"
-msgstr ""
-
-#: template-parts/contact-form.php:18 template-parts/contact-form.php:19
-msgid "Name"
+#. Name of the theme
+msgid "Markup"
 msgstr ""
 
 #: comments.php:14
@@ -123,10 +72,6 @@ msgstr ""
 
 #: helpers/template_tags.php:34
 msgid "Page not found"
-msgstr ""
-
-#: template-parts/contact-form.php:24 template-parts/contact-form.php:25
-msgid "Phone"
 msgstr ""
 
 #: helpers/loop.php:14
@@ -150,7 +95,7 @@ msgstr ""
 msgid "Read more"
 msgstr ""
 
-#: searchform.php:11
+#: searchform.php:10
 msgid "Search"
 msgstr ""
 
@@ -167,10 +112,6 @@ msgstr ""
 msgid "Search:"
 msgstr ""
 
-#: template-parts/contact-form.php:50
-msgid "Send"
-msgstr ""
-
 #: template-parts/content-none.php:2
 msgid "Sorry, no posts found."
 msgstr ""
@@ -179,28 +120,8 @@ msgstr ""
 msgid "Sorry, we couldn't find what you're looking for."
 msgstr ""
 
-#: template-parts/contact-form.php:43
-msgid "The <b>Message</b> is required"
-msgstr ""
-
-#: template-parts/contact-form.php:20
-msgid "The <b>Name</b> is required"
-msgstr ""
-
-#: template-parts/contact-form.php:26
-msgid "The <b>Phone</b> is required"
-msgstr ""
-
 #: comments.php:66
 msgid "The comment field must not be empty"
-msgstr ""
-
-#: template-parts/contact-form.php:8
-msgid "The message could not be sent. Please check all fields and try again."
-msgstr ""
-
-#: template-parts/contact-form.php:4
-msgid "The message could not be sent. Please try again later."
 msgstr ""
 
 #: hooks/customizer.php:15
@@ -209,22 +130,10 @@ msgstr ""
 
 #. Description of the theme
 msgid ""
-"Wordpress Starter Theme integrated with Bootstrap 4 Framework and Webpack "
-"Encore."
-msgstr ""
-
-#. Name of the theme
-msgid "wpstack"
-msgstr ""
-
-#: template-parts/contact-form.php:37
-msgid "You must enter a valid <b>Email</b>"
+"Wordpress Starter Theme integrated with Bootstrap 4 Framework and Laravel "
+"Mix."
 msgstr ""
 
 #: searchform.php:7
 msgid "You must enter what you want to search for"
-msgstr ""
-
-#: template-parts/contact-form.php:12
-msgid "Your message has been successfully sent. We will contact you very soon!"
 msgstr ""

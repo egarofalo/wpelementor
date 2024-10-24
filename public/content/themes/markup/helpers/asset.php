@@ -43,6 +43,9 @@ function scripts()
     // Add main.js
     wp_enqueue_script('main', asset('scripts/main.js'), ['jquery'], false, true);
 
+    // Add forms.js
+    wp_enqueue_script('forms', asset('scripts/forms.js'), ['jquery'], false, true);
+
     // Add comment-reply js
     if (is_singular() && comments_open() && get_option('thread_comments')) {
         wp_enqueue_script('comment-reply');

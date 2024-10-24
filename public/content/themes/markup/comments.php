@@ -54,7 +54,7 @@ if (post_password_required()) {
     endif; // Check for have_comments().
 
     comment_form([
-        'class_form' => 'comment-form needs-validation with-loading-state',
+        'class_form' => 'comment-form needs-validation disable-on-submit',
         'class_submit' => 'btn btn-outline-dark',
         'comment_field' => sprintf(
             '<p class="comment-form-comment">%s %s %s</p>',

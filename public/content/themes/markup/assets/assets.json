@@ -9,7 +9,11 @@
 		{
 			"output": "main.js",
 			"input": "main.js"
-		}	
+		},
+		{
+			"output": "forms.js",
+			"input": "forms.js"
+		}		
 	],
 	"styleEntries": [
 		{

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Starter Theme\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-13 19:38+0000\n"
-"PO-Revision-Date: 2023-10-29 21:46+0000\n"
+"PO-Revision-Date: 2024-10-23 22:55+0000\n"
 "Last-Translator: \n"
 "Language-Team: Español\n"
 "Language: es_ES\n"
@@ -22,40 +22,6 @@ msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
 msgstr[0] "%1$s comentario sobre &ldquo;%2$s&rdquo;"
 msgstr[1] "%1$s comentarios sobre &ldquo;%2$s&rdquo;"
 
-#: template-parts/contact-form.php:47
-msgid "(*) Required fields"
-msgstr "(*) Campos requeridos"
-
-#: hooks/ajax_action.php:67
-#, php-format
-msgid "<p><strong>Company:</strong> %s</p>"
-msgstr "<p><strong>Empresa:</strong> %s</p>"
-
-#: hooks/ajax_action.php:68
-#, php-format
-msgid "<p><strong>Email:</strong> %s</p>"
-msgstr "<p><strong>Email:</strong> %s</p>"
-
-#: hooks/ajax_action.php:69
-#, php-format
-msgid "<p><strong>Message</strong><br>%s</p>"
-msgstr "<p><strong>Mensaje</strong><br>%s"
-
-#: hooks/ajax_action.php:58
-#, php-format
-msgid "<p><strong>Name:</strong> %s</p>"
-msgstr "<p><strong>Nombre:</strong> %s</p>"
-
-#: hooks/ajax_action.php:66
-#, php-format
-msgid "<p><strong>Phone:</strong> %s</p>"
-msgstr "<p><strong>Teléfono:</strong> %s</p>"
-
-#: hooks/ajax_action.php:61
-#, php-format
-msgid "<p><strong>Subject:</strong> %s</p>"
-msgstr "<p><strong>Asunto:</strong> %s</p>"
-
 #: helpers/loop.php:24
 #, php-format
 msgid "by %s"
@@ -68,14 +34,6 @@ msgstr "codevelopers"
 #: comments.php:51
 msgid "Comments are closed."
 msgstr "Los comentarios están cerrados."
-
-#: template-parts/contact-form.php:30 template-parts/contact-form.php:31
-msgid "Company"
-msgstr "Empresa"
-
-#: template-parts/contact-form.php:35 template-parts/contact-form.php:36
-msgid "Email"
-msgstr "Email"
 
 #. Name of the template
 msgid "Full Width"
@@ -104,18 +62,9 @@ msgstr ""
 msgid "Image Header"
 msgstr "Encabezado de imagen"
 
-#: template-parts/contact-form.php:41 template-parts/contact-form.php:42
-msgid "Message"
-msgstr "Mensaje"
-
-#: hooks/ajax_action.php:63
-#, php-format
-msgid "Message from %s website"
-msgstr "Mensaje desde el sitio web %s"
-
-#: template-parts/contact-form.php:18 template-parts/contact-form.php:19
-msgid "Name"
-msgstr "Nombre"
+#. Name of the theme
+msgid "Markup"
+msgstr ""
 
 #: comments.php:14
 #, php-format
@@ -125,10 +74,6 @@ msgstr "Un comentario sobre &ldquo;%1$s&rdquo;"
 #: helpers/template_tags.php:34
 msgid "Page not found"
 msgstr "Página no encontrada"
-
-#: template-parts/contact-form.php:24 template-parts/contact-form.php:25
-msgid "Phone"
-msgstr "Teléfono"
 
 #: helpers/loop.php:14
 #, php-format
@@ -151,7 +96,7 @@ msgstr "Navegación primaria para dispositivos móviles"
 msgid "Read more"
 msgstr "Leer más"
 
-#: searchform.php:11
+#: searchform.php:10
 msgid "Search"
 msgstr "Buscar"
 
@@ -168,10 +113,6 @@ msgstr "Resultados de búsqueda para: %s"
 msgid "Search:"
 msgstr "Buscar:"
 
-#: template-parts/contact-form.php:50
-msgid "Send"
-msgstr "Enviar"
-
 #: template-parts/content-none.php:2
 msgid "Sorry, no posts found."
 msgstr "Lo sentimos, no se encontraron publicaciones."
@@ -180,57 +121,24 @@ msgstr "Lo sentimos, no se encontraron publicaciones."
 msgid "Sorry, we couldn't find what you're looking for."
 msgstr "Lo sentimos, no pudimos encontrar lo que buscaba."
 
-#: template-parts/contact-form.php:43
-msgid "The <b>Message</b> is required"
-msgstr "El <b>Mensaje</b> es requerido"
-
-#: template-parts/contact-form.php:20
-msgid "The <b>Name</b> is required"
-msgstr "El <b>Nombre</b> es requerido"
-
-#: template-parts/contact-form.php:26
-msgid "The <b>Phone</b> is required"
-msgstr "El <b>Teléfono</b> es requerido"
-
 #: comments.php:66
 msgid "The comment field must not be empty"
 msgstr "El campo de comentario no debe estar vacío"
-
-#: template-parts/contact-form.php:8
-msgid "The message could not be sent. Please check all fields and try again."
-msgstr ""
-"El mensaje no se pudo enviar. Por favor revise todos los campos y vuelva a "
-"intentarlo."
-
-#: template-parts/contact-form.php:4
-msgid "The message could not be sent. Please try again later."
-msgstr "El mensaje no se pudo enviar. Por favor, inténtelo de nuevo más tarde."
 
 #: hooks/customizer.php:15
 msgid "Upload alternative logo"
 msgstr "Subir logo alternativo"
 
 #. Description of the theme
+#| msgid ""
+#| "Wordpress Starter Theme integrated with Bootstrap 4 Framework and Webpack "
+#| "Encore."
 msgid ""
-"Wordpress Starter Theme integrated with Bootstrap 4 Framework and Webpack "
-"Encore."
+"Wordpress Starter Theme integrated with Bootstrap 4 Framework and Laravel "
+"Mix."
 msgstr ""
-"Wordpress Starter Theme integrado con Bootstrap 4 Framework y Webpack Encore."
-
-#. Name of the theme
-msgid "wpstack"
-msgstr ""
-
-#: template-parts/contact-form.php:37
-msgid "You must enter a valid <b>Email</b>"
-msgstr "Debe ingresar un <b>Email</b> válido"
+"Wordpress Starter Theme integrado con Bootstrap 4 Framework y Laravel Mix."
 
 #: searchform.php:7
 msgid "You must enter what you want to search for"
 msgstr "Debes ingresar lo que deseas buscar"
-
-#: template-parts/contact-form.php:12
-msgid "Your message has been successfully sent. We will contact you very soon!"
-msgstr ""
-"Su mensaje ha sido enviado con éxito. ¡Nos pondremos en contacto contigo muy "
-"pronto!"
